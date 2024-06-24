@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Idade e Experiência</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <form id="idadeForm">
+        <label for="idade">Idade Atual:</label>
+        <input type="number" id="idade" name="idade" required>
+        <br>
+        <label for="idadeInicioTrabalho">Idade quando começou a trabalhar:</label>
+        <dev class="idadeInicioTrabalho"></dev>
+        <input type="number" id="idadeInicioTrabalho" name="idadeInicioTrabalho" required>
+        <br>
+        <button type="submit">Analisar..</button>
+    </form>
+    <p id="mensagem"></p>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
